@@ -23,7 +23,7 @@ classifiers = [
   "Intended Audience :: Developers",
 ]
 license = "GPL-3.0-only"
-license-files = ["GNU LICENSE.txt", "CCL LICENSE.txt"]
+license-files = ["GNU_LICENSE.txt", "CCL_LICENSE.txt"]
 
 [project.urls]
 Homepage = "https://github.com/NicolasSR/mathtuples-with-slt-matching"
