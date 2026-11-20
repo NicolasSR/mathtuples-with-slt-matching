@@ -38,9 +38,9 @@ from xml.parsers import expat
 import xml.etree.ElementTree as ET
 from sys import stderr
 
-from .mathsymbol import MathSymbol
-from .symboltree import SymbolTree
-from .exceptions import UnknownTagException
+from src.mathsymbol import MathSymbol
+from src.symboltree import SymbolTree
+from src.exceptions import UnknownTagException
 
 ## TODO: simplify math extraction by creating simple list of math expressions and then grouping them by SLT, rather than by LaTeX
 

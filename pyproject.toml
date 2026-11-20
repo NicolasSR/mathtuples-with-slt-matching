@@ -29,7 +29,8 @@ license-files = ["GNU_LICENSE.txt", "CCL_LICENSE.txt"]
 Homepage = "https://github.com/NicolasSR/mathtuples-with-slt-matching"
 
 [tool.setuptools.packages.find]
-include = ["mathtuples*"]
+where = ["."]
+include = ["src*"]
 
 [tool.setuptools.package-data]
 mathtuples = ["testFiles/*.html", "testFiles/*.xml"]

@@ -38,11 +38,11 @@ from sys import stderr
 import string
 import sys
 import re
-import symbol
+# import symbol
 import os
 
-from .exceptions import UnknownTagException
-from .mathml import MathML
+from src.exceptions import UnknownTagException
+from src.mathml import MathML
 
 REP_TAG = "!REP!"
 MAX_HEIGHT = 100 # do not calculate tree heights larger than this value

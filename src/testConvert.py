@@ -35,7 +35,7 @@ import os
 WINDOWS = "nt"
 ROOTPATH = os.path.dirname(os.path.abspath(__file__))
 
-from .convert import convert_math_expression,\
+from src.convert import convert_math_expression,\
                                 check_wildcard, make_wild,\
                                 determine_node,\
                                 expand_nodes_with_location,\
@@ -45,7 +45,7 @@ from .convert import convert_math_expression,\
                                 DUPLICATE_NODE, LONG_NODE, ABBREVIATED_NODE,\
                                 WILDCARD_MOCK, START_TAG, END_TAG,\
                                 INFINITE_DEPTH, MAX_EOL_HEIGHT, MAX_DUP
-from .mathsymbol import REP_TAG
+from src.mathsymbol import REP_TAG
 
 def convert_test(mathml,
                synonyms=False,

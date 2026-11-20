@@ -32,8 +32,8 @@ import xml.etree.ElementTree as ET
 from collections import Counter
 import sys
 
-from .mathsymbol import MathSymbol
-from .mathml import MathML
+from src.mathsymbol import MathSymbol
+from src.mathml import MathML
 
 __author__ = 'Nidhin, FWTompa, KDavila'
 

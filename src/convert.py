@@ -42,8 +42,8 @@ import re
 import traceback
 __author__ = 'Dallas Fraser, FWTompa'
 
-from .math_extractor import MathExtractor
-from .mathsymbol import MathSymbol, REP_TAG
+from src.math_extractor import MathExtractor
+from src.mathsymbol import MathSymbol, REP_TAG
 
 START_TAG = "#(start)#"
 END_TAG = "#(end)#"
