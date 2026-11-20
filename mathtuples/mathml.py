@@ -27,8 +27,9 @@
     Modified by Nidhin Pattaniyil, 2014
     Modified by Kenny Davila, 2014
     Modified by Frank Tompa, 2015
-    Packaged with mathtuples. Contact:
-        - Frank Tompa, fwtompa@uwaterloo.ca
+    Modified by Nicolas Sibuet, 2026
+    Packaged with mathtuples-with-slt-matching. Contact:
+        - Nicolas Sibuet, nicolas.sibuet@upc.edu
 """
 __author__ = 'Nidhin, KDavila, FWTompa'
 

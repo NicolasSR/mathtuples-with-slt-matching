@@ -19,9 +19,10 @@
 
     Contact:
         - Dallas Fraser, dallas.fraser.waterloo@gmail.com
-    Modified by Frank Tompa, 20expand21
-    Packaged with mathtuples. Contact:
-        - Frank Tompa, fwtompa@uwaterloo.ca
+    Modified by Frank Tompa, 2021
+    Modified by Nicolas Sibuet, 2026
+    Packaged with mathtuples-with-slt-matching. Contact:
+        - Nicolas Sibuet, nicolas.sibuet@upc.edu
 """
 '''
 Name: Dallas Fraser

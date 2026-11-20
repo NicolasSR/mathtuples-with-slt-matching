@@ -21,8 +21,9 @@
         - David Stalnaker: david.stalnaker@gmail.com
         - Richard Zanibbi: rlaz@cs.rit.edu
     Modified by Nidhin Pattaniyil, 2014
-    Packaged with mathtuples. Contact:
-        - Frank Tompa, fwtompa@uwaterloo.ca
+    Modified by Nicolas Sibuet, 2026
+    Packaged with mathtuples-with-slt-matching. Contact:
+        - Nicolas Sibuet, nicolas.sibuet@upc.edu
 """
 __author__ = 'Nidhin'
 

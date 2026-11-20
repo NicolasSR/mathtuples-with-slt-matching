@@ -1,6 +1,35 @@
 [build-system]
-requires = [
-    "setuptools>=40.8",
-    "wheel"
-]
+requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "mathtuples-with-slt-matching"
+version = "1.0"
+description = "Fork of fwtompa/mathtuples. Adapted to allow direct SLT matching via Python string search or regex."
+readme = { file = "README.md", content-type = "text/markdown" }
+requires-python = ">=3.11"
+authors = [
+  { name = "Nicolas Sibuet", email = "nicolas.sibuet@upc.edu" },
+  { name = "Dallas Fraser" },
+  { name = "Nidhin Pattaniyil" },
+  { name = "David Stalnaker" },
+  { name = "Frank Tompa" },
+  { name = "Richard Zanibbi" },
+]
+keywords = ["MathIR", "MathML formula retrieval", "Tangent-L", "MathDowsers", "math tuples"]
+classifiers = [
+  "Programming Language :: Python :: 3 :: Only",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Developers",
+]
+license = "GPL-3.0-only"
+license-files = ["GNU LICENSE.txt", "CCL LICENSE.txt"]
+
+[project.urls]
+Homepage = "https://github.com/NicolasSR/mathtuples-with-slt-matching"
+
+[tool.setuptools.packages.find]
+include = ["mathtuples*"]
+
+[tool.setuptools.package-data]
+mathtuples = ["testFiles/*.html", "testFiles/*.xml"]
